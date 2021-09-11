@@ -1,0 +1,38 @@
+*{
+    box-sizing: 0;
+    padding: 0;
+    margin: 0;
+    
+}
+
+$font-stack:arial;
+$light-color:#f4f4f4;
+$primaria-color:#0e6cff;
+$secondary-color:#ff8700;
+
+nav{
+    font-family: $font-stack;
+    background-color:$primaria-color;
+    height: 60px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    color: $light-color;
+
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li{
+    padding: 15px;
+}
+
+a:hover{
+    text-decoration: none;
+    
+    color:$secondary-color;
+}
