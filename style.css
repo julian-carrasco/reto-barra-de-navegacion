@@ -34,7 +34,11 @@ li {
 }
 
 a:hover {
-  text-decoration: none;
   color: #ff8700;
+}
+
+a {
+  color: #f4f4f4;
+  text-decoration: none;
 }
 /*# sourceMappingURL=style.css.map */
